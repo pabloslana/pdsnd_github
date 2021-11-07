@@ -7,7 +7,7 @@ November 6th, 2021
 Bikeshare
 
 ### Description
-Python project which analyses with different statistics the operational records from the company Bikeshare in 3 cities: New York, Washington and Chicago
+Python project which analyses with different statistics the operational records from the company Bikeshare in 3 cities: New York City, Washington and Chicago
 
 ### Files used
 Includes a .py file that is the core of the project, and 3 csv which contains the operational records for the 3 cities mentioned above
