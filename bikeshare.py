@@ -24,10 +24,10 @@ def get_filters():
 
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
-    list_cities = ['chicago', 'new york city', 'washington']
+    cities = ['chicago', 'new york city', 'washington']
     city = None
 
-    while city not in list_cities:
+    while city not in cities:
         city = input("Enter one of these following cities: chicago, new york city, washington. Use lowercase.\nResponse:   ")
         city = city.lower()
     print()
@@ -260,7 +260,7 @@ def user_stats(df):
          common = df['Birth Year'].mode()[0]
          print("Common year of birth: {}".format(common))
          print()
-         print() 
+         print()
 
          print("\nThis took %s seconds." % (time.time() - start_time))
          print('-'*40)
